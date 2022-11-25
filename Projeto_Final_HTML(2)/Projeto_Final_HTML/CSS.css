@@ -1,0 +1,97 @@
+.principal{
+   border-top: 7px;
+   border-left: 0px;
+   border-right: 0px;
+   border-bottom: 0px;
+   border-color: black;
+   border-style: solid ;
+   padding-top:10px;
+   padding-left: 0px;
+   padding-right: 0px;
+   padding-bottom: 230px;
+   
+}
+
+body{
+    margin:0 auto;
+}
+
+.ícone{
+    border: 0px solid  white;
+    margin-top:0px;
+    margin-bottom:10px;
+    margin-left: 30px;
+    margin-right: 50px;
+    padding:10px;
+    width:100px;   
+}
+
+.navbar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    border: 0px solid white;
+    margin:0px;
+    position:absolute;
+    width: 300px;
+    height: 30px;
+    top:55px;
+    left: 1570px;
+    display: block;
+}
+
+.fundoimagem{
+    background-color: rgb(199, 218, 211);
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#pp{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#p2{
+    text-align: center;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.textossobre{
+    border:1px solid rgb(199, 218, 211);
+    background-color: rgb(199, 218, 211);
+    
+}
+
+.sobretitle{
+    border: 1px solid rgb(199, 218, 211);
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 70px;
+    
+}
+#h{
+    text-align:left ;
+}
+.sobretext{
+    border: 1px solid rgb(199, 218, 211);
+    margin-left:70px
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+   
+}
+.textocontato{
+    border:1px solid rgb(199, 218, 211);
+    background-color: rgb(199, 218, 211);
+    padding-bottom: 100px;
+}
