@@ -1,5 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin:0;
+    text-decoration: none;
 }
 
 body{
@@ -12,13 +17,11 @@ header{ /*Define o cabeçalho do site*/
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:#272323;
     margin:0px;
-    font-size: 15px;
-   
-}
-
-.logo img{ /*alteração da div logo especificamente na tag img*/
-    width:50%; /*aumenta ou diminui a imagem, usar % para o tamanho redimensionar de acordo com a tela*/
-    padding-top:50px; /*fez a imagem descer, deu mais espaço acima da imagem*/
+    font-size: 20px;
+    position:fixed;
+    top:0px;
+    right: 0px;
+    left:0px;
 }
 
 .navegacao{
@@ -27,18 +30,19 @@ header{ /*Define o cabeçalho do site*/
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    
 }
 
-.navegacao a{ /*altera os hyperlinks da classe navegaçao com a tag "a"*/
-    
+.navegacao a{ 
     color: rgb(245, 234, 234);
     text-decoration:none;
     padding: 1% 5% 1% 5%;
 }
 
-.navegacao a:hover{ /*altera a cor dos links quando o mouse passa por cima*/
+.navegacao a:hover{ 
     color:#e32936;
     background-color:black;
+    transition: 1s;
 }
 
 .apresent{
@@ -47,7 +51,7 @@ header{ /*Define o cabeçalho do site*/
     background-size: 100%;
     background-position:center;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 650px;
     text-align: center;
     place-items: center;
     
@@ -59,10 +63,11 @@ header{ /*Define o cabeçalho do site*/
 }
 
 .secondpart{
-    background-image: linear-gradient(0, #003240 0, #002e39 7.14%, #002930 14.29%, #022428 21.43%, #061e1f 28.57%, #061817 35.71%, #030f0d 42.86%, #000000 50%, #000000 57.14%, #000000 64.29%, #000000 71.43%, #000000 78.57%, #000000 85.71%, #000000 92.86%, #000000 100%);
-    height: 500px;
+    background-image: linear-gradient(0, #061d1e 0, #051716 16.67%, #030e0d 33.33%, #000000 50%, #000000 66.67%, #000000 83.33%, #000000 100%);
+    height: 300px;
     text-align: center;
-    padding: 3%;
+    padding: 3% 31% 5% 31%;
+    
 }
 
 .secondpart-title{
@@ -95,3 +100,72 @@ header{ /*Define o cabeçalho do site*/
     50% { border-color: #f01d2b; }
   }
 
+.list{
+    background-color: #061d1e;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.atv{
+    /*height:60px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 8%;
+    margin:3% 5% 3% 5%;
+    background-color: #030f0d;
+    padding:2%;
+    text-align:start;
+   
+}
+
+.atv-number{
+    font-size:100px;
+    color:white;
+}
+
+#HTML{
+    font-size:80px;
+    margin: 0% 5% 2% 5%;
+    color:white;
+}
+
+#CSS{
+    font-size:80px;
+    margin: 2% 5% 2% 5%;
+    color:white;
+}
+
+#JS{
+    font-size:80px;
+    margin-left:5%;
+    color:white;
+}
+
+h1{
+    font-size:40px;
+    color:rgb(177, 177, 177);
+    padding-bottom:2%;
+}
+
+p{
+    color:rgb(177, 177, 177);
+}
+
+footer{
+    background-image: linear-gradient(180deg, #061d1e 0, #051716 16.67%, #030e0d 33.33%, #000000 50%, #000000 66.67%, #000000 83.33%, #000000 100%);
+    height: 300px;
+    text-align: center;
+}
+
+.pfoot{
+    font-size:20px;
+    padding-top:5%;
+}
