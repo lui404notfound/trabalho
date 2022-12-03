@@ -10,7 +10,7 @@ body{
 
 header{ /*Define o cabeçalho do site*/
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:#ffffff;
+    background-color:#272323;
     margin:0px;
     font-size: 15px;
    
@@ -31,7 +31,7 @@ header{ /*Define o cabeçalho do site*/
 
 .navegacao a{ /*altera os hyperlinks da classe navegaçao com a tag "a"*/
     
-    color: rgb(0, 0, 0);
+    color: rgb(245, 234, 234);
     text-decoration:none;
     padding: 1% 5% 1% 5%;
 }
@@ -43,15 +43,55 @@ header{ /*Define o cabeçalho do site*/
 
 .apresent{
     background-image: url(../imgp/img_apresent.jpg);
-    opacity:0.9;
     margin:0px;
     background-size: 100%;
-    background-position: center;
+    background-position:center;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 500px;
     text-align: center;
+    place-items: center;
+    
 }
 
 .apresent img{
     margin:5%;
+    padding: 4%;
 }
+
+.secondpart{
+    background-image: linear-gradient(0, #003240 0, #002e39 7.14%, #002930 14.29%, #022428 21.43%, #061e1f 28.57%, #061817 35.71%, #030f0d 42.86%, #000000 50%, #000000 57.14%, #000000 64.29%, #000000 71.43%, #000000 78.57%, #000000 85.71%, #000000 92.86%, #000000 100%);
+    height: 500px;
+    text-align: center;
+    padding: 3%;
+}
+
+.secondpart-title{
+    font-size: 70px;
+    font-family:monospace;
+    color: rgb(255, 255, 255);
+}
+
+.secondpart-title2{
+    font-size: 50px;
+    color:#f01d2b;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: .15em solid #f01d2b;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #f01d2b; }
+  }
+
