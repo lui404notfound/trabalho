@@ -123,7 +123,7 @@ header{ /*Define o cabeçalho do site*/
     background-color: #030f0d;
     padding:2%;
     text-align:start;
-   
+    
 }
 
 .atv-number{
@@ -132,21 +132,27 @@ header{ /*Define o cabeçalho do site*/
 }
 
 #HTML{
-    font-size:80px;
-    margin: 0% 5% 2% 5%;
-    color:white;
+   margin: 0% 5% 2% 5%; 
+}
+
+.html-title{
+    font-size:60px;
 }
 
 #CSS{
-    font-size:80px;
-    margin: 2% 5% 2% 5%;
-    color:white;
+    margin: 2% 5% 2% 5%; 
+}
+
+.css-title{
+    font-size:60px;
 }
 
 #JS{
-    font-size:80px;
-    margin-left:5%;
-    color:white;
+    margin: 2% 5% 2% 5%;
+}
+
+.js-title{
+    font-size:60px;
 }
 
 h1{
@@ -160,12 +166,17 @@ p{
 }
 
 footer{
+    padding-top:7%;
     background-image: linear-gradient(180deg, #061d1e 0, #051716 16.67%, #030e0d 33.33%, #000000 50%, #000000 66.67%, #000000 83.33%, #000000 100%);
     height: 300px;
     text-align: center;
 }
 
-.pfoot{
+.pf1{
     font-size:20px;
-    padding-top:5%;
+}
+
+.pfoot{
+    font-size:15x;
+    padding-top:3%;
 }
