@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="cssp/form.css">
+    <script type="text/javascript" src="form.js"></script>
+</head>
+<body>
+    <header> 
+       
+        <nav>
+                <div class="navegacao">
+                    <a href="index.html" >HOME</a>
+                </div>
+        </nav>
+
+    </header>
+
+    <div class="secondpart">
+        <h1 class="secondpart-title">Interessado na Trilha do Aprendizado? </h1>
+        <h1 class="secondpart-title2">Entre em contato!</h1>  
+    </div>
+
+        <form name="formulario" action="cadastra.php" method="post" onsubmit="return Enviar()">
+            <label for="nome">Nome Completo</label><br>
+            <input type="text" id="nome" placeholder="Digite o seu nome"><br><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="email@email.com"><br><br>
+            <label for="datanasc">Data de Nascimento</label> <br>
+            <input type="date" ind="datanasc"><br><br>
+            <textarea id="comentario" placeholder="Deixe o seu comentário"></textarea>
+            <input type="submit" class="enviar" value="Enviar">
+
+        </form>
+        <footer>
+            <h1>Lorem</h1>
+            <p class="pf1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim fuga omnis, iure sequi accusantium nam hic optio beatae, <br>
+                rem laboriosam vero maiores molestias quos officiis laborum suscipit repellendus placeat aperiam.</p>
+            <p class="pfoot">©Todos os direitos reservados</p>
+        </footer>
+</body>
+</html>

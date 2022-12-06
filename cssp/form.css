@@ -1,0 +1,149 @@
+body{
+     background-image: linear-gradient(0, #061d1e 0, #051716 16.67%, #030e0d 33.33%, #000000 50%, #000000 66.67%, #000000 83.33%, #000000 100%);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-position:center;
+     text-align: center;
+     align-items: center;
+    }
+
+header{ /*Define o cabeçalho do site*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#272323;
+    margin:0px;
+    font-size: 20px;
+    position:fixed;
+    top:0px;
+    right: 0px;
+    left:0px;
+}
+
+.navegacao{
+    overflow:hidden; /*esconde a barra de rolagem*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navegacao a{ 
+    color: rgb(245, 234, 234);
+    text-decoration:none;
+    padding: 1% 5% 1% 5%;
+}
+
+.navegacao a:hover{ 
+    color:#e32936;
+    background-color:black;
+    transition: 1s;
+}
+
+.secondpart{
+    height: 300px;
+    text-align: center;
+    padding: 5% 40% 0% 40%;
+    
+}
+
+.secondpart-title{
+    font-size: 40px;
+    font-family:monospace;
+    color: rgb(177, 177, 177);
+}
+
+.secondpart-title2{
+    font-size: 30px;
+    color:#f01d2b;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: .15em solid #f01d2b;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #f01d2b; }
+  }
+
+form{
+    font-size: 20px;
+    font-family: monospace;
+    background-color: #202020;
+    max-width: 500px;
+    border-radius: 5px;
+    /*box-shadow: 10px 10px 10px #000000;*/
+    padding: 2%;
+    margin-left: 36%;
+    text-align: center;
+}
+input, textarea{
+    width: 400px;
+    padding: 10px;
+    color:white;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: #202020;
+    border-color: rgb(122, 119, 119);
+}
+input:hover, textarea:hover, input:focus, textarea:focus{
+    /*box-shadow: 5px 0px 9px rgb(0, 0, 0);*/
+    background-color: rgb(73, 71, 71);
+    color: white;
+    font-weight: bold;
+}
+.enviar{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    border: 1px solid rgb(122, 119, 119);
+    color: rgb(122, 119, 119);
+}
+.textarea{
+    width: 100px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+form label{
+    color: rgb(177, 177, 177);
+    font-weight: bold;
+}
+
+footer{
+    padding-top:5%;
+    height: 300px;
+    text-align: center;
+    font-family: monospace;
+}
+
+h1{
+    font-size:40px;
+    color:rgb(177, 177, 177);
+    padding-bottom:2%;
+}
+
+
+.pf1{
+    font-size:20px;
+    color:rgb(177, 177, 177);
+}
+
+.pfoot{
+    font-size:15x;
+    padding-top:3%;
+    color:rgb(177, 177, 177);
+}
